@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+header {
+  background-color: #fff;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+header .navbar .logo-con {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+header .navbar .logo-image {
+  width: 60px;
+}
+header .navbar .logo-con a {
+  text-align: center;
+  text-decoration: none;
+  color: #232323;
+}
+header .navbar .logo-con .logo-img {
+  width: 70px;
+}
+header .navbar .logo-con h2 {
+  font-size: 28px;
+}
+header .navbar nav {
+  display: flex;
+  height: 100%;
+}
+header .navbar nav a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #232323;
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+}
+header .navbar nav a:hover {
+  background-color: #555;
+  color: #fff;
+}
+header .navbar #logout-btn {
+  color: red;
+}
+header .navbar nav #logout-btn:hover {
+  background-color: red;
+  color: #FFF;
+}
+.vision{
+  padding: 90px 20px;
+}
+.vision h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.vision p{
+  font-size: 20px;
+  text-align: justify;
+}
+
+.testimonials {
+  padding: 80px 20px;
+  color: #232323;
+  background-image: url("../images/eyeglasses.png");
+  background-color: #444;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+}
+
+.testimonials h3 {
+  margin: 50px auto;
+  text-align: center;
+  font-size: 40px;
+  color: #FFF;
+}
+
+.test-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.test-card {
+  width: calc(50% - 20px);
+  margin-bottom: 50px;
+  padding: 58px;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.test-card:hover {
+  transform: translateY(-5px);
+}
+
+.user-header {
+  display: flex;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.user-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 28px;
+  margin: 0;
+}
+
+.review {
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 1.7rem;
+}
+.footer {
+  color: #222;
+  padding: 45px 20px;
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.footer-logo img {
+  width: 150px;
+}
+
+.footer-links ul,
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li,
+.footer-social ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a,
+.footer-social ul li a {
+  color: #444;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 700;
+
+}
+
+.footer-social ul li a {
+  font-size: 26px;
+}
+.footer-links ul li a:hover,
+.footer-social ul li a:hover{
+  color: #111;
+}
+.footer-bottom {
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 20px;
+  margin-top: 30px;
+}
