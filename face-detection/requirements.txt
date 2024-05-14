@@ -1,0 +1,6 @@
+#Requirements to run the face-detection app:
+streamlit
+opencv-python-headless
+twilio
+playsound
+pygame 
